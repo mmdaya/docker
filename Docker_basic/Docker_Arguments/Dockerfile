@@ -2,4 +2,4 @@ FROM ubuntu:latest
 ARG NAME
 ARG TOOL
 RUN echo $NAME
-RUN apt install -y $TOOL
+RUN apt update && apt install -y $TOOL
