@@ -10,5 +10,5 @@
 
  ######### 2 this is for ENTRYPOINT and to check overide cmd and cmd act as parameter to entrypoint
 FROM ubuntu:latest
-CMD [ "-l", "-r", "-t" ]
+CMD [ "-l", "-r" ]
 ENTRYPOINT [ "ls" ]
